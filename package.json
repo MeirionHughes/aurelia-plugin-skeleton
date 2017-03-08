@@ -1,0 +1,30 @@
+{
+  "name": "aurelia-plugin-skeleton",
+  "version": "0.1.0",
+  "description": "a simple plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "",
+    "start": "webpack-dev-server --inline --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeirionHughes/aurelia-plugin-skeleton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeirionHughes/aurelia-plugin-skeleton"
+  },
+  "homepage": "https://github.com/MeirionHughes/aurelia-plugin-skeleton#readme",
+  "devDependencies": {
+    "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-webpack-plugin": "^2.0.0-rc.1",
+    "html-loader": "^0.4.5",
+    "rimraf": "^2.6.1",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
