@@ -19,4 +19,5 @@ npm build
 ## todo
 * source debugging in vscode
 * multi-dist build
+* unit testing
 
