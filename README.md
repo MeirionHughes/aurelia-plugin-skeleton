@@ -16,7 +16,7 @@ npm install
 npm build
 ```
 
-## TODO
+## todo
 * source debugging in vscode
 * multi-dist build
 
