@@ -2,7 +2,7 @@
   "compilerOptions": {
      "experimentalDecorators": true, 
     "target": "es2015",
-    "module": "commonjs",
+    "module": "es2015",
     "moduleResolution": "node",
     "sourceMap": true,
     "noImplicitAny": true,
@@ -12,15 +12,15 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "stripInternal": true,
-    
     "importHelpers": false,
     "noEmitHelpers": false,
-
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ]    
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "example",
+    "dist"
   ]
 }
